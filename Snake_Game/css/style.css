@@ -49,13 +49,3 @@ canvas {
 .high__score{
   margin-top: 27px;
 }
-
-.apple{
-  background-image: url(/img/apple.png);
-}
-
-.tile{
-  width: 16px;
-  height: 16px;
-  background-image: url(/img/tile.PNG);
-}
