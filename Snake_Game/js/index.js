@@ -118,21 +118,23 @@ function loop() {
 document.addEventListener('keydown', function (UIEvent) {
   // Если нажата стрелка влево, и при этом змейка никуда не движется по горизонтали и так далее
     
+    //движение влево
   if (UIEvent.which === 37 && snake.dx === 0) {
     snake.dx = -grid;
     snake.dy = 0;
   }
-
+    //движение вниз
   else if (UIEvent.which === 38 && snake.dy === 0) {
     snake.dy = -grid;
     snake.dx = 0;
   }
-
+    //движение вправо
   else if (UIEvent.which === 39 && snake.dx === 0) {
     snake.dx = grid;
     snake.dy = 0;
   }
-
+  
+   //движенте ваерх
   else if (UIEvent.which === 40 && snake.dy === 0) {
     snake.dy = grid;
     snake.dx = 0;
